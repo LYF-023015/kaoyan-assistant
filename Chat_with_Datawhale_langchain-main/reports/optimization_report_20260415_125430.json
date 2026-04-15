@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-04-15T12:54:30.276254",
+  "optimizations_performed": [
+    {
+      "type": "memory_optimization",
+      "result": {
+        "current_memory": {
+          "total": 33934004224,
+          "available": 18571411456,
+          "percent": 45.3,
+          "used": 15362592768
+        },
+        "optimization_actions": [],
+        "recommendations": [],
+        "after_optimization": {
+          "memory_freed": 883974144,
+          "memory_percent": 42.7
+        }
+      }
+    },
+    {
+      "type": "llm_optimization",
+      "result": {
+        "model_type": "chatglm_std",
+        "optimization_suggestions": [
+          "使用模型缓存避免重复调用",
+          "对于相似问题，使用缓存结果",
+          "设置合理的超时时间（30-60秒）",
+          "对于批量问题，使用批处理接口"
+        ],
+        "batch_processing": {
+          "max_batch_size": 5,
+          "recommended_batch_size": 3,
+          "wait_time": 1.0
+        },
+        "temperature_settings": {
+          "factual_questions": 0.1,
+          "creative_tasks": 0.7,
+          "balanced": 0.3
+        }
+      }
+    }
+  ],
+  "performance_improvement": {},
+  "recommendations": [
+    "定期执行内存清理",
+    "根据使用情况调整缓存大小",
+    "监控系统性能指标",
+    "及时更新知识库数据"
+  ]
+}
