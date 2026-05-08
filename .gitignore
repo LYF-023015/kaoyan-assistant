@@ -1,1 +1,46 @@
-/.claude
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# 环境变量
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 向量数据库和索引
+vector_db/
+
+# 知识库上传的文件
+knowledge_base/*/
+!knowledge_base/.gitkeep
+
+# 旧项目备份
+Chat_with_Datawhale_langchain-main/
